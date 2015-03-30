@@ -1,0 +1,18 @@
+{
+  "name": "default",
+  "version": "0.0.0",
+  "homepage": "",
+  "authors": [
+    "kamem <develo0@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "keywords": [
+    ""
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "",
+    "google-code-prettify": ""
+  }
+}

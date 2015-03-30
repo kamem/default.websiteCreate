@@ -1,0 +1,19 @@
+{
+	"name": "default.websiteCreate",
+	"version": "0.0.0",
+	"private": true,
+	"devDependencies": {
+		"gulp": "",
+		"gulp-tsc": "",
+		"gulp-babel": "",
+		"gulp-compass": "",
+		"gulp-plumber": "",
+		"gulp-watch": "",
+
+		"gulp-pleeease": "",
+		"gulp.spritesmith": "",
+
+		"gulp-uglify": "",
+		"gulp-minify-css": ""
+	}
+}

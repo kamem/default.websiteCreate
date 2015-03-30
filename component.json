@@ -1,0 +1,7 @@
+{
+  "name": "plugins",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery.textAnimation": "https://github.com/kamem/jquery.textAnimation.git"
+  }
+}

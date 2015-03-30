@@ -1,0 +1,317 @@
+#background-fit > p {
+  background: "text.png" center 5px no-repeat, -webkit-linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.3)) 0 0 no-repeat;
+  background: "text.png" center 5px no-repeat, -moz-linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.3)) 0 0 no-repeat;
+  background: "text.png" center 5px no-repeat, -o-linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.3)) 0 0 no-repeat;
+  background: "text.png" center 5px no-repeat, linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.3)) 0 0 no-repeat;
+  -moz-background-size: auto auto, auto auto;
+    -o-background-size: auto auto, auto auto;
+       background-size: auto auto, auto auto;
+  height: auto10;
+  text-indent: -9999px;
+}
+#background-fit section p {
+  background: "text.png" center 5px no-repeat, -webkit-linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.3)) 0 0 no-repeat;
+  background: "text.png" center 5px no-repeat, -moz-linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.3)) 0 0 no-repeat;
+  background: "text.png" center 5px no-repeat, -o-linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.3)) 0 0 no-repeat;
+  background: "text.png" center 5px no-repeat, linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.3)) 0 0 no-repeat;
+  -moz-background-size: auto auto, auto auto;
+    -o-background-size: auto auto, auto auto;
+       background-size: auto auto, auto auto;
+  height: auto10;
+  text-indent: -9999px;
+}
+
+#background-4corners p {
+  position: relative;
+  height: 200px;
+  text-align: center;
+}
+#background-4corners p:after, #background-4corners p:before {
+  content: '';
+  display: block;
+  background: url('../img/flower.png?1418347540') 0 0 no-repeat;
+  -moz-background-size: 100px 61px;
+    -o-background-size: 100px 61px;
+       background-size: 100px 61px;
+  width: 50%;
+  height: 61px;
+  position: absolute;
+  -webkit-box-reflect: right;
+}
+#background-4corners p:before {
+  top: 0;
+  left: 0;
+}
+#background-4corners p:after {
+  right: 0;
+  bottom: 0;
+  -webkit-transform: rotate(-180deg);
+     -moz-transform: rotate(-180deg);
+      -ms-transform: rotate(-180deg);
+       -o-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
+#em-width p {
+  margin: 0 auto;
+  margin-bottom: 62px;
+  margin-bottom: 62px;
+  margin-bottom: 62px;
+  margin-bottom: 62px;
+  margin-bottom: 62px;
+  margin-bottom: 62px;
+  margin-bottom: 62px;
+  margin-bottom: 3.9rem;
+  line-height: 36px;
+  line-height: 36px;
+  line-height: 36px;
+  line-height: 36px;
+  line-height: 36px;
+  line-height: 36px;
+  line-height: 36px;
+  line-height: 2.3rem;
+  letter-spacing: 3px;
+  letter-spacing: 3px;
+  letter-spacing: 3px;
+  letter-spacing: 3px;
+  letter-spacing: 3px;
+  letter-spacing: 3px;
+  letter-spacing: 3px;
+  letter-spacing: 0.24rem;
+  color: #500;
+  max-width: fs(736);
+  /width: 40em;
+}
+
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+*/
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+#sprite-info p {
+  background-image: url(../img/sprite/sprite-num.png?1427654559155);
+  background-position: 0px -54px;
+  width: 50px;
+  height: 50px;
+  text-indent: -9999px;
+}
+#sprite-info li {
+  display: inline-block;
+  text-indent: -9999px;
+}
+#sprite-info li:nth-child(1) {
+  background-image: url(../img/sprite/sprite-num.png?1427654559155);
+  background-position: 0px 0px;
+  width: 50px;
+  height: 50px;
+}
+#sprite-info li:nth-child(2) {
+  background-image: url(../img/sprite/sprite-num.png?1427654559155);
+  background-position: -54px 0px;
+  width: 50px;
+  height: 50px;
+}
+#sprite-info li:nth-child(3) {
+  background-image: url(../img/sprite/sprite-num.png?1427654559155);
+  background-position: 0px -54px;
+  width: 50px;
+  height: 50px;
+}
+#sprite-info li:nth-child(4) {
+  background-image: url(../img/sprite/sprite-num.png?1427654559155);
+  background-position: -54px -54px;
+  width: 50px;
+  height: 50px;
+}
+#sprite-info li:nth-child(5) {
+  background-image: url(../img/sprite/sprite-num.png?1427654559155);
+  background-position: -108px 0px;
+  width: 50px;
+  height: 50px;
+}
+
+#triangle li {
+  float: left;
+}
+#triangle li:nth-child(1) {
+  content: "";
+  font-size: 0;
+  border: 10px solid transparent;
+  border-bottom-color: red;
+  border-bottom-width: 20px;
+}
+#triangle li:nth-child(2) {
+  content: "";
+  font-size: 0;
+  border: 10px solid transparent;
+  border-left-color: green;
+  border-left-width: 20px;
+}
+#triangle li:nth-child(3) {
+  content: "";
+  font-size: 0;
+  border: 10px solid transparent;
+  border-top-color: pink;
+  border-top-width: 20px;
+}
+#triangle li:nth-child(4) {
+  content: "";
+  font-size: 0;
+  border: 10px solid transparent;
+  border-right-color: purple;
+  border-right-width: 20px;
+}
+#triangle p {
+  margin: 30px auto;
+  border: 2px solid #39c;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  background: #fff;
+  -webkit-filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.5));
+}
+#triangle p:after {
+  content: "";
+  font-size: 0;
+  border: 15px solid transparent;
+  border-top-color: #39c;
+  border-top-width: 20px;
+  bottom: -35px;
+  position: absolute;
+  left: 50%;
+  margin-left: -15px;
+}
+#triangle p:before {
+  content: "";
+  font-size: 0;
+  border: 25px solid transparent;
+  border-bottom-color: #39c;
+  border-bottom-width: 20px;
+  top: -45px;
+  position: absolute;
+  left: 50%;
+  margin-left: -25px;
+}
+
+#arrow li {
+  padding: 0.3em;
+  margin-bottom: 0.3em;
+  background: #333;
+  color: #fff;
+  position: relative;
+}
+#arrow li:nth-child(1):after {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+       -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  position: absolute;
+  top: 50%;
+  margin-top: -5px;
+}
+#arrow li:nth-child(2):after {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+       -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+#arrow li:nth-child(3):after {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid #fff;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+       -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+#arrow li:nth-child(4):after {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+       -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+#arrow li:after {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  margin-top: -5px;
+}
+
+#shadow-repeat p {
+  padding: 1em;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 3px #000,0 0 3px #000,0 0 3px #000,0 0 3px #000,0 0 3px #000;
+  -moz-box-shadow: 0 0 10px #000,0 0 10px #000,0 0 10px #000,0 0 10px #000,0 0 10px #000;
+       box-shadow: 0 0 10px #000,0 0 10px #000,0 0 10px #000,0 0 10px #000,0 0 10px #000;
+}
+
+#background-stripe {
+  background-image: -webkit-linear-gradient(135deg, rgba(0, 0, 0, 0) 25%, rgba(255, 255, 255, 0.5) 25%, rgba(255, 255, 255, 0.5) 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 75%, rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0.5));
+  background-image: -moz-linear-gradient(135deg, rgba(0, 0, 0, 0) 25%, rgba(255, 255, 255, 0.5) 25%, rgba(255, 255, 255, 0.5) 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 75%, rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0.5));
+  background-image: -o-linear-gradient(135deg, rgba(0, 0, 0, 0) 25%, rgba(255, 255, 255, 0.5) 25%, rgba(255, 255, 255, 0.5) 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 75%, rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0.5));
+  background-image: linear-gradient(-45deg, rgba(0, 0, 0, 0) 25%, rgba(255, 255, 255, 0.5) 25%, rgba(255, 255, 255, 0.5) 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 75%, rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0.5));
+  -moz-background-size: 40px 40px;
+    -o-background-size: 40px 40px;
+       background-size: 40px 40px;
+  background-color: #39c;
+  height: 150px;
+}
