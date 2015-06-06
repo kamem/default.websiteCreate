@@ -10,6 +10,9 @@
 		"gulp-plumber": "",
 		"gulp-watch": "",
 
+		"autoprefixer-core": "",
+		"gulp-postcss": "",
+
 		"gulp-pleeease": "",
 		"gulp.spritesmith": "",
 

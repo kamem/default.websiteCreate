@@ -9,7 +9,7 @@
 		text-indent: -9999px;
 	}
 	section p {
-		$isRetina: true;
+		$isRetina: true !global;
 		@include background-fit(("text.png",linear-gradient(rgba(red,0.1),rgba(red,0.3))),false,('center 5px no-repeat','0 0 no-repeat'));
 		$isRetina: false;
 		height: nth($imgHeight,1) + 10;

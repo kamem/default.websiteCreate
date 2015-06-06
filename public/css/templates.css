@@ -1,23 +1,27 @@
 #background-fit > p {
-  background: "text.png" center 5px no-repeat, -webkit-linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.3)) 0 0 no-repeat;
-  background: "text.png" center 5px no-repeat, -moz-linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.3)) 0 0 no-repeat;
-  background: "text.png" center 5px no-repeat, -o-linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.3)) 0 0 no-repeat;
-  background: "text.png" center 5px no-repeat, linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.3)) 0 0 no-repeat;
-  -moz-background-size: auto auto, auto auto;
-    -o-background-size: auto auto, auto auto;
-       background-size: auto auto, auto auto;
-  height: auto10;
+  background: url('../img/text.png?1418347540') center 5px no-repeat, -webkit-gradient(linear, left top, left bottom, from(rgba(255, 0, 0, 0.1)), to(rgba(255, 0, 0, 0.3))) 0 0 no-repeat;
+  background: url('../img/text.png?1418347540') center 5px no-repeat, -webkit-linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.3)) 0 0 no-repeat;
+  background: url('../img/text.png?1418347540') center 5px no-repeat, -moz-linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.3)) 0 0 no-repeat;
+  background: url('../img/text.png?1418347540') center 5px no-repeat, -o-linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.3)) 0 0 no-repeat;
+  background: url('../img/text.png?1418347540') center 5px no-repeat, linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.3)) 0 0 no-repeat;
+  -webkit-background-size: 327px 29px, auto auto;
+     -moz-background-size: 327px 29px, auto auto;
+       -o-background-size: 327px 29px, auto auto;
+          background-size: 327px 29px, auto auto;
+  height: 39px;
   text-indent: -9999px;
 }
 #background-fit section p {
-  background: "text.png" center 5px no-repeat, -webkit-linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.3)) 0 0 no-repeat;
-  background: "text.png" center 5px no-repeat, -moz-linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.3)) 0 0 no-repeat;
-  background: "text.png" center 5px no-repeat, -o-linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.3)) 0 0 no-repeat;
-  background: "text.png" center 5px no-repeat, linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.3)) 0 0 no-repeat;
-  -moz-background-size: auto auto, auto auto;
-    -o-background-size: auto auto, auto auto;
-       background-size: auto auto, auto auto;
-  height: auto10;
+  background: url('../img/text.png?1418347540') center 5px no-repeat, -webkit-gradient(linear, left top, left bottom, from(rgba(255, 0, 0, 0.1)), to(rgba(255, 0, 0, 0.3))) 0 0 no-repeat;
+  background: url('../img/text.png?1418347540') center 5px no-repeat, -webkit-linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.3)) 0 0 no-repeat;
+  background: url('../img/text.png?1418347540') center 5px no-repeat, -moz-linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.3)) 0 0 no-repeat;
+  background: url('../img/text.png?1418347540') center 5px no-repeat, -o-linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.3)) 0 0 no-repeat;
+  background: url('../img/text.png?1418347540') center 5px no-repeat, linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0.3)) 0 0 no-repeat;
+  -webkit-background-size: 164px 15px, auto auto;
+     -moz-background-size: 164px 15px, auto auto;
+       -o-background-size: 164px 15px, auto auto;
+          background-size: 164px 15px, auto auto;
+  height: 25px;
   text-indent: -9999px;
 }
 
@@ -30,11 +34,12 @@
   content: '';
   display: block;
   background: url('../img/flower.png?1418347540') 0 0 no-repeat;
-  -moz-background-size: 100px 61px;
-    -o-background-size: 100px 61px;
-       background-size: 100px 61px;
+  -webkit-background-size: 50px 31px;
+     -moz-background-size: 50px 31px;
+       -o-background-size: 50px 31px;
+          background-size: 50px 31px;
   width: 50%;
-  height: 61px;
+  height: 31px;
   position: absolute;
   -webkit-box-reflect: right;
 }
@@ -54,29 +59,8 @@
 
 #em-width p {
   margin: 0 auto;
-  margin-bottom: 62px;
-  margin-bottom: 62px;
-  margin-bottom: 62px;
-  margin-bottom: 62px;
-  margin-bottom: 62px;
-  margin-bottom: 62px;
-  margin-bottom: 62px;
   margin-bottom: 3.9rem;
-  line-height: 36px;
-  line-height: 36px;
-  line-height: 36px;
-  line-height: 36px;
-  line-height: 36px;
-  line-height: 36px;
-  line-height: 36px;
   line-height: 2.3rem;
-  letter-spacing: 3px;
-  letter-spacing: 3px;
-  letter-spacing: 3px;
-  letter-spacing: 3px;
-  letter-spacing: 3px;
-  letter-spacing: 3px;
-  letter-spacing: 3px;
   letter-spacing: 0.24rem;
   color: #500;
   max-width: fs(736);
@@ -232,8 +216,9 @@ The `sprites` mixin generates identical output to the CSS template
   height: 10px;
   border-right: 1px solid #fff;
   border-bottom: 1px solid #fff;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-transform: rotate(-45deg);
      -moz-transform: rotate(-45deg);
       -ms-transform: rotate(-45deg);
@@ -250,8 +235,9 @@ The `sprites` mixin generates identical output to the CSS template
   height: 10px;
   border-top: 1px solid #fff;
   border-right: 1px solid #fff;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-transform: rotate(-45deg);
      -moz-transform: rotate(-45deg);
       -ms-transform: rotate(-45deg);
@@ -265,8 +251,9 @@ The `sprites` mixin generates identical output to the CSS template
   height: 10px;
   border-bottom: 1px solid #fff;
   border-left: 1px solid #fff;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-transform: rotate(-45deg);
      -moz-transform: rotate(-45deg);
       -ms-transform: rotate(-45deg);
@@ -280,8 +267,9 @@ The `sprites` mixin generates identical output to the CSS template
   height: 10px;
   border-top: 1px solid #fff;
   border-left: 1px solid #fff;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-transform: rotate(-45deg);
      -moz-transform: rotate(-45deg);
       -ms-transform: rotate(-45deg);
@@ -300,8 +288,9 @@ The `sprites` mixin generates identical output to the CSS template
   font-weight: bold;
   color: #fff;
   text-shadow: 0 0 3px #000,0 0 3px #000,0 0 3px #000,0 0 3px #000,0 0 3px #000;
-  -moz-box-shadow: 0 0 10px #000,0 0 10px #000,0 0 10px #000,0 0 10px #000,0 0 10px #000;
-       box-shadow: 0 0 10px #000,0 0 10px #000,0 0 10px #000,0 0 10px #000,0 0 10px #000;
+  -webkit-box-shadow: 0 0 10px #000,0 0 10px #000,0 0 10px #000,0 0 10px #000,0 0 10px #000;
+     -moz-box-shadow: 0 0 10px #000,0 0 10px #000,0 0 10px #000,0 0 10px #000,0 0 10px #000;
+          box-shadow: 0 0 10px #000,0 0 10px #000,0 0 10px #000,0 0 10px #000,0 0 10px #000;
 }
 
 #background-stripe {
@@ -309,9 +298,10 @@ The `sprites` mixin generates identical output to the CSS template
   background-image: -moz-linear-gradient(135deg, rgba(0, 0, 0, 0) 25%, rgba(255, 255, 255, 0.5) 25%, rgba(255, 255, 255, 0.5) 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 75%, rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0.5));
   background-image: -o-linear-gradient(135deg, rgba(0, 0, 0, 0) 25%, rgba(255, 255, 255, 0.5) 25%, rgba(255, 255, 255, 0.5) 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 75%, rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0.5));
   background-image: linear-gradient(-45deg, rgba(0, 0, 0, 0) 25%, rgba(255, 255, 255, 0.5) 25%, rgba(255, 255, 255, 0.5) 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 75%, rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0.5));
-  -moz-background-size: 40px 40px;
-    -o-background-size: 40px 40px;
-       background-size: 40px 40px;
+  -webkit-background-size: 40px 40px;
+     -moz-background-size: 40px 40px;
+       -o-background-size: 40px 40px;
+          background-size: 40px 40px;
   background-color: #39c;
   height: 150px;
 }

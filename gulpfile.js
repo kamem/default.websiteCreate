@@ -4,6 +4,10 @@ var babel = require('gulp-babel');
 var compass = require('gulp-compass');
 var plumber = require('gulp-plumber');
 
+
+var postcss = require('gulp-postcss');
+var autoprefixer = require('autoprefixer-core');
+
 var pleeease = require('gulp-pleeease');
 var spritesmith = require('gulp.spritesmith');
 
@@ -82,7 +86,7 @@ var sassDir = root + '/' + sass + '/';
 var cssDir = root + '/' + css + '/';
 var sassWatchFiles = sassDir + '**/*.scss';
 var cssWatchFiles = cssDir + '**/*.css';
-gulp.task('compass', function(){
+gulp.task('compass_pleeease', function(){
 	gulp.src([sassWatchFiles])
 	.pipe(plumber())
 	.pipe(compass({
@@ -98,6 +102,26 @@ gulp.task('compass', function(){
 		},
 		minifier: false
 	}))
+	.pipe(gulp.dest(cssDir));
+});
+
+
+//Compass
+var sassDir = root + '/' + sass + '/';
+var cssDir = root + '/' + css + '/';
+var sassWatchFiles = sassDir + '**/*.scss';
+var cssWatchFiles = cssDir + '**/*.css';
+gulp.task('compass', function(){
+	gulp.src([sassWatchFiles])
+	.pipe(plumber())
+	.pipe(compass({
+		bundle_exec: true,
+		config_file : 'config.rb',
+		comments : false,
+		css : cssDir,
+		sass: sassDir
+	}))
+	.pipe(postcss([ autoprefixer({ browsers: ["> 0%"] }) ]))
 	.pipe(gulp.dest(cssDir));
 });
 
