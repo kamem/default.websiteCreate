@@ -1,6 +1,7 @@
 #file ignore
 Thumbs.db
 .Ds_Store
+nodemon.json
 
 #directory ignore
 .sass-cache/
