@@ -4,6 +4,7 @@ var express = require('express');
 var app = express();
 import settings = require('./settings');
 import post = require('./routes/post');
+import error = require('./routes/error');
 
 var logger = require('morgan');
 var bodyParser = require('body-parser');
@@ -50,9 +51,13 @@ app.use(logger('dev'));
 //template
 app.get('/*', post.template);
 
+app.use(error.error);
+app.use(error.logErrors);
+app.use(error.clientErrorHandler);
+app.use(error.errorHandler);
 
 //error
-app.use(function(err,req,res,next) {
+app.use(function(err, req, res, next) {
 	res.send(err.message);
 });
 

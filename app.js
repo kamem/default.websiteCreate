@@ -3,6 +3,7 @@ var express = require('express');
 var app = express();
 var settings = require('./settings');
 var post = require('./routes/post');
+var error = require('./routes/error');
 var logger = require('morgan');
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
@@ -37,6 +38,10 @@ app.use(function (req, res, next) {
 app.use(logger('dev'));
 //template
 app.get('/*', post.template);
+app.use(error.error);
+app.use(error.logErrors);
+app.use(error.clientErrorHandler);
+app.use(error.errorHandler);
 //error
 app.use(function (err, req, res, next) {
     res.send(err.message);
