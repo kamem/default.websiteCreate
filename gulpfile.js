@@ -51,7 +51,7 @@ gulp.task('typescript', function(){
 //TypeScript commonjs
 var typescriptCommonjsDir = server + '/' + ts + '/';
 var typescriptCommonjsWatchFiles = typescriptCommonjsDir + '**/*.ts';
-var commonjsDir = server + '/' + js + '/';
+var commonjsDir = server + '/';
 gulp.task('typescriptCommonjs', function(){
 	gulp.src([typescriptCommonjsWatchFiles])
 	.pipe(plumber())
