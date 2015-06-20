@@ -18,7 +18,6 @@ var csrf = require('csurf');
 
 var db = require('./models/db');
 var mongo = require('mongoose');
-import cloverBlueDb = require('./db');
 
 //middleware
 app.set('views', __dirname + '/views');
