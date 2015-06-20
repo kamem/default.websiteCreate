@@ -8,3 +8,5 @@ images_dir = "public/img/"
 javascripts_dir = "js/"
 relative_assets = true
 line_comments = false
+
+Encoding.default_external = 'utf-8'
